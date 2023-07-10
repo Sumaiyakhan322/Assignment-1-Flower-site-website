@@ -6,6 +6,34 @@
 body{
     font-family: 'Poppins', sans-serif;
 }
+.primary-color{
+    color: #E55473;
+}
+.description{
+    color: rgba(39, 39, 39, 0.60);
+    font-family: Lato;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    margin: 32px 0px;
+    }
+    .btn{
+        border-radius: 8px;
+        background: #E55473;
+        color: white;
+        font-family: Lato;
+        font-size: 20px;
+        font-weight: 700;
+        border: none;
+        padding: 18px 40px;
+        }
+    .title{
+        color: #272727;
+        font-family: Lato;
+        font-size: 40px;
+        font-weight: 800;
+            
+            }
 /* banner section style */
 .banner{
     padding:50px 150px 0px 150px;
@@ -28,34 +56,18 @@ height: 700px;
     font-weight: 800;
     
 }
-.banner-description{
-color: rgba(39, 39, 39, 0.60);
-font-family: Lato;
-font-size: 18px;
-font-weight: 400;
-line-height: 30px;
-margin: 32px 0px;
-}
+
 
 .banner-content{
  max-width:60%;
 }
-.btn{
-border-radius: 8px;
-background: #E55473;
-color: white;
-font-family: Lato;
-font-size: 20px;
-font-weight: 700;
-border: none;
-padding: 18px 40px;
-}
+
 
    
 /* Featured section */
 .featured{
     width: 80%;
-    margin: 100px auto;
+    margin:100px auto;
 }
 .feature-content{
     text-align: center;
@@ -65,36 +77,32 @@ padding: 18px 40px;
 .feature-description{
     margin: 20px 0px 50px 0px;
 }
-.title{
-color: #272727;
-font-family: Lato;
-font-size: 40px;
-font-weight: 800;
 
-}
 .feature-img-container{
     display: flex;
     text-align: center;
-    gap: 24px;
+    
+    justify-content: space-between;
+    
 
 }
 
 .pink-img{
     width:380px;
-    height: 480px;
+    height:480px;
     border-radius: 300px 300px 0px 0px;
-    background: rgba(167, 33, 98, 0.15);
+    background-color: rgba(167, 33, 98, 0.15);
     background-image: url('./asset/feature1.png');
     background-repeat: no-repeat;
     background-position: bottom;
-    background-size:280px;
+     background-size:280px;
     
 }
 .red-img{
     width:380px;
     height: 480px;
     border-radius: 300px 300px 0px 0px;
-    background: rgba(5, 151, 160, 0.15);
+    background-color: rgba(5, 151, 160, 0.15);
     background-image: url('./asset/feature2.png');
     background-repeat: no-repeat;
     background-position: center;
@@ -105,7 +113,7 @@ font-weight: 800;
     width:380px;
     height: 480px;
     border-radius: 300px 300px 0px 0px;
-    background:rgba(71, 125, 17, 0.15);
+    background-color:rgba(71, 125, 17, 0.15);
     background-image: url('./asset/feature3.png');
     background-repeat: no-repeat;
     background-position: bottom;
@@ -125,12 +133,12 @@ margin: 30px;
 }
 /* support section style */
 .support{
-    width: 80%;
+    width:80%;
     margin:auto;
 }
 .support-container{
 border-radius: 8px;
-background: rgba(39, 39, 39, 0.05);
+background-color: rgba(39, 39, 39, 0.05);
 padding: 80px 100px;
 display: flex;
 justify-content: space-between;
@@ -140,14 +148,70 @@ margin-bottom: 80px;
 }
 .support-description{
 color: rgba(39, 39, 39, 0.80);
-
 font-family: Lato;
 font-size: 20px;
-
 font-weight: 600;
 line-height: 35px;
 }
 
+/* Offer section style */
+.offer-container{
+border-radius: 8px;
+background-color: rgba(229, 84, 115, 0.05);
+display: flex;
+justify-content:space-between;
+align-items: center;
+padding: 70px 100px;
+}
+.offer-content{
+    text-align:center;
+    width: 50%;
+}
+.instagram-img-container{
+    display: flex;
+    justify-content: space-between;
+}
+.instagram-img{
+    width: 270px;
+    height: 300px;
+}
 
 
-
+/* Top selling flowers */
+.top-selling-flower{
+    width: 80%;
+    margin:150px auto;
+}
+.top-selling-flower-content{
+    
+        text-align: center;
+        width: 50%;
+        margin: auto;
+    
+}
+.top-selling-flower-container{
+    display: flex;
+    justify-content: space-between;
+    gap: 60px;
+    text-align: center;
+    
+    
+    
+    
+    
+}
+.top-selling-details{
+    height: 500px;
+    width: 500px;
+    background-color: rgba(167, 33, 98, 0.15);
+    border-radius: 10px;
+}
+.top-selling-details img{
+    width: 100%;
+    height: 50%;
+    border-radius: 10px 10px 0px 0px;
+    margin-bottom: 25px;
+}
+.top-selling-description{
+    margin: 10px 0px;
+}
