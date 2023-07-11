@@ -67,7 +67,7 @@ margin-bottom: -3px;
 
 /* Featured section */
 .featured{
-    width: 80%;
+    width: 100%;
     margin:100px auto;
 }
 .feature-content{
@@ -84,7 +84,8 @@ margin-bottom: -3px;
     text-align: center;
     justify-content:space-between;
     gap: 60px;
-    width: 100% ;
+    width: 80% ;
+    margin: auto;
     
 
 }
