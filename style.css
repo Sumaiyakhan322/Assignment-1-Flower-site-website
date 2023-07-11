@@ -6,6 +6,7 @@
 body{
     font-family: 'Poppins', sans-serif;
     max-width: 100%;
+    overflow-x: hidden;
 }
 .primary-color{
     color: #E55473;
@@ -82,8 +83,8 @@ margin-bottom: -3px;
 .feature-img-container{
     display: flex;
     text-align: center;
-    justify-content:space-between;
-    gap: 60px;
+    justify-content:center;
+    gap: 70px;
     width: 80% ;
     margin: auto;
     
@@ -177,7 +178,8 @@ align-items: center;
     display: flex;
     gap: 40px;
     justify-content:space-between;
-    width: 100%;
+    width: 80%;
+    margin: auto;
 }
 .instagram-img{
     width: 270px;
