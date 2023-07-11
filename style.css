@@ -40,13 +40,15 @@ body{
     background-color:rgba(229, 84, 115, 0.10);
     display: flex;
     align-items: center;
-    gap:100px;
+    justify-content: center;
+    gap:80px;
     
 
 }
 .banner-img{
 width: 535px;
 height: 700px;
+margin-bottom: -3px;
 }
 
 .banner-title{
@@ -59,7 +61,7 @@ height: 700px;
 
 
 .banner-content{
- max-width:60%;
+ max-width:70%;
 }
 
 
@@ -81,43 +83,45 @@ height: 700px;
 .feature-img-container{
     display: flex;
     text-align: center;
-    
-    justify-content: space-between;
+    justify-content:space-between;
+    gap: 60px;
+    width: 100% ;
     
 
 }
 
+
 .pink-img{
-    width:380px;
-    height:480px;
+    width:350px;
+    height:450px; 
     border-radius: 300px 300px 0px 0px;
     background-color: rgba(167, 33, 98, 0.15);
     background-image: url('./asset/feature1.png');
     background-repeat: no-repeat;
     background-position: bottom;
-    background-size:280px;
+    background-size:250px;
     
 }
 .red-img{
-    width:380px;
-    height: 480px;
+    width:350px;
+    height: 450px;
     border-radius: 300px 300px 0px 0px;
     background-color: rgba(5, 151, 160, 0.15);
     background-image: url('./asset/feature2.png');
     background-repeat: no-repeat;
     background-position: center;
-    background-size: 280px;
+    background-size: 250px;
     
 }
 .yellow-img{
-    width:380px;
-    height: 480px;
+    width:350px;
+    height: 450px;
     border-radius: 300px 300px 0px 0px;
     background-color:rgba(71, 125, 17, 0.15);
     background-image: url('./asset/feature3.png');
     background-repeat: no-repeat;
     background-position: bottom;
-    background-size: 280px;
+    background-size: 250px;
     
 
 }
@@ -155,21 +159,28 @@ line-height: 35px;
 }
 
 /* Offer section style */
+.offer{
+    width: 100%;
+   
+}
 .offer-container{
 border-radius: 8px;
 background-color: rgba(229, 84, 115, 0.05);
 display: flex;
-justify-content:space-between;
+justify-content:center;
+gap: 100px;
 align-items: center;
-padding: 70px 100px;
+ padding: 70px 40px; 
 }
 .offer-content{
     text-align:center;
-    width: 50%;
+    width:45%;
 }
 .instagram-img-container{
     display: flex;
-    justify-content: space-between;
+    gap: 40px;
+    justify-content:space-between;
+    width: 100%;
 }
 .instagram-img{
     width: 270px;
