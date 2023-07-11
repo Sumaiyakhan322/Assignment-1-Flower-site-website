@@ -5,6 +5,7 @@
 }
 body{
     font-family: 'Poppins', sans-serif;
+    max-width: 100%;
 }
 .primary-color{
     color: #E55473;
@@ -64,8 +65,6 @@ margin-bottom: -3px;
  max-width:70%;
 }
 
-
-   
 /* Featured section */
 .featured{
     width: 80%;
@@ -89,8 +88,6 @@ margin-bottom: -3px;
     
 
 }
-
-
 .pink-img{
     width:350px;
     height:450px; 
@@ -161,7 +158,6 @@ line-height: 35px;
 /* Offer section style */
 .offer{
     width: 100%;
-   
 }
 .offer-container{
 border-radius: 8px;
